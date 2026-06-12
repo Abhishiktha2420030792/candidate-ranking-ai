@@ -6,16 +6,29 @@ A hybrid AI-powered candidate ranking system built for the Redrob challenge.
 
 ## Project Structure
 
-```
+## Project Structure
+
+```text
 candidate-ranking-ai/
-├── src/
-│   ├── preprocess.py      # Profile text assembly
-│   ├── ranker.py          # Hybrid scoring engine
-│   └── main.py            # Entry point
+│
+├── data/
+│   ├── sample_candidates.json
+│   └── candidates.jsonl
+│
 ├── outputs/
-│   └── submission.csv     # Final ranked output
+│   └── submission.csv
+│
+├── src/
+│   ├── main.py
+│   ├── preprocess.py
+│   └── ranker.py
+│
+├── README.md
 ├── requirements.txt
-└── README.md
+├── LICENSE
+└── .gitignore
+```
+
 ```
 
 ---
