@@ -36,16 +36,21 @@ candidate-ranking-ai/
 ## Quick Start
 
 ```bash
-# 1. Install dependencies
+# Clone repository
+git clone <your-repo-url>
+cd candidate-ranking-ai
+
+# Install dependencies
 pip install -r requirements.txt
 
-# 2. Place your data file
-cp candidates.jsonl data/candidates.jsonl   # or .json array
-
-# 3. Run the ranker
+# Run ranking pipeline
 python src/main.py --candidates data/candidates.jsonl
 
-# Output is written to outputs/submission.csv
+# Output generated at:
+outputs/submission.csv
+
+```
+
 ```
 
 ---
